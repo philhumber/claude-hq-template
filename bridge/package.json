@@ -1,0 +1,20 @@
+{
+  "name": "claude-hq-slack",
+  "version": "0.1.0",
+  "private": true,
+  "description": "slack-hq: a Claude Code channel server that bridges the owner's private Slack workspace into an always-on Claude Code HQ session",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "@slack/bolt": "^5.1.0",
+    "zod": "^4.6.7"
+  }
+}

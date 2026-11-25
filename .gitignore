@@ -1,0 +1,13 @@
+# Secrets never go in git
+.env
+.env.*
+*.pem
+*.key
+id_*
+
+# Machine-local
+node_modules/
+logs/
+bridge/hq.local.json
+*.lock
+*.pid
